@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MYZEL · LUX – akademie neues bauhaus brandenburg</title>
+  <meta name="description" content="MYZEL ist das DAO-Governance-Protokoll der LUX-Akademie. Zwei-Kammer-Abstimmungen, Smart-Contract-Ausführung und transparente Archivierung auf öffentlicher Blockchain.">
+  <link rel="canonical" href="https://lux-akademie.de/myzel.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MYZEL · Das LUX-DAO">
+  <meta property="og:description" content="Eine Schule, die sich selbst schreibt. MYZEL ist das Governance-Protokoll der LUX-Akademie.">
+  <meta property="og:url" content="https://lux-akademie.de/myzel.html">
+  <meta property="og:image" content="https://lux-akademie.de/assets/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#1A3A0D">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="myzel">
+
+<nav class="nav" role="navigation" aria-label="Hauptnavigation">
+  <a class="nav__logo" href="index.html" aria-label="LUX Startseite">
+    <span class="nav__lux">L U X</span>
+    <span class="nav__sub">akademie neues bauhaus<br>brandenburg</span>
+  </a>
+  <ul class="nav__links" role="list">
+    <li><a href="index.html" data-nav="home"><span data-de>Start</span><span data-en>Home</span></a></li>
+    <li><a href="programme.html" data-nav="programme"><span data-de>Programme</span><span data-en>Programmes</span></a></li>
+    <li><a href="ort.html" data-nav="ort"><span data-de>Ort &amp; Campus</span><span data-en>Site &amp; Campus</span></a></li>
+    <li><a href="meister.html" data-nav="meister"><span data-de>Meister</span><span data-en>Masters</span></a></li>
+    <li><a href="myzel.html" data-nav="myzel">MYZEL</a></li>
+    <li><a href="kontakt.html" data-nav="kontakt"><span data-de>Kontakt</span><span data-en>Contact</span></a></li>
+  </ul>
+  <div class="nav__lang">
+    <a href="#" data-lang-btn="de" class="active">DE</a>
+    <a href="#" data-lang-btn="en">EN</a>
+  </div>
+  <button class="nav__burger" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mob-menu" role="dialog" aria-label="Mobile Menü">
+  <button class="mob-close" aria-label="Menü schließen">✕</button>
+  <a href="index.html"><span data-de>Start</span><span data-en>Home</span></a>
+  <a href="programme.html"><span data-de>Programme</span><span data-en>Programmes</span></a>
+  <a href="ort.html"><span data-de>Ort &amp; Campus</span><span data-en>Site &amp; Campus</span></a>
+  <a href="meister.html"><span data-de>Meister</span><span data-en>Masters</span></a>
+  <a href="myzel.html">MYZEL</a>
+  <a href="kontakt.html"><span data-de>Kontakt</span><span data-en>Contact</span></a>
+  <div class="mob-menu__lang">
+    <a href="#" data-lang-btn="de">DE</a>
+    <a href="#" data-lang-btn="en">EN</a>
+  </div>
+</div>
+
+<header class="page-header page-header--cream">
+  <div class="container">
+    <p class="breadcrumb">
+      <a href="index.html"><span data-de>Start</span><span data-en>Home</span></a>
+      <span>/</span>
+      <span>MYZEL</span>
+    </p>
+    <p class="label" style="margin-bottom:1rem">MYZEL · <span data-de>Das LUX-DAO</span><span data-en>The LUX DAO</span></p>
+    <h1 style="font-style:italic;letter-spacing:-0.02em" data-de>Eine Schule, die sich <em style="color:var(--green);font-style:normal">selbst schreibt</em>.</h1>
+    <h1 style="font-style:italic;letter-spacing:-0.02em" data-en>A school that <em style="color:var(--green);font-style:normal">writes itself</em>.</h1>
+    <p class="page-lead" style="margin-top:1.5rem;max-width:60ch" data-de>MYZEL ist das Abstimmungs- und Governance-Protokoll der LUX-Akademie. Jede größere Entscheidung – Berufungen, Budget, Curriculum, Raum – durchläuft zwei Kammern und wird auf einer öffentlichen Blockchain festgehalten.</p>
+    <p class="page-lead" style="margin-top:1.5rem;max-width:60ch" data-en>MYZEL is the voting and governance protocol of the LUX Academy. Every major decision — appointments, budget, curriculum, space — passes through two chambers and is recorded on a public blockchain.</p>
+  </div>
+</header>
+
+<section class="section section--darker">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:1rem">
+      <p class="label" style="color:var(--yellow)" data-de>Diagramm · Abstimmungsfluss</p>
+      <p class="label" style="color:var(--yellow)" data-en>Diagram · Voting flow</p>
+      <span style="font-family:var(--ff-meta);font-weight:500;font-size:0.7rem;letter-spacing:0.14em;color:rgba(255,255,255,0.5);text-transform:uppercase">v1.2 · <span data-de>Stand April 2026</span><span data-en>as of April 2026</span></span>
+    </div>
+
+    <div class="dao-grid">
+      <!-- 01 INITIIERUNG -->
+      <div class="dao-card">
+        <span class="dao-card__step">01 · <span data-de>Initiierung</span><span data-en>Initiation</span></span>
+        <div>
+          <div class="dao-card__title"><span data-de>Issue ID</span><span data-en>Issue ID</span></div>
+          <p class="dao-card__desc" data-de>Jede:r Mensch mit Stimmrecht kann einen Vorschlag einreichen.</p>
+          <p class="dao-card__desc" data-en>Anyone with voting rights can submit a proposal.</p>
+        </div>
+        <span class="dao-card__hash">#I-0241</span>
+      </div>
+
+      <!-- 02 ZWEI-KAMMER -->
+      <div class="dao-card">
+        <span class="dao-card__step">02 · <span data-de>Zwei-Kammer</span><span data-en>Two-Chamber</span></span>
+        <div class="dao-chambers">
+          <div class="dao-chamber">
+            <div style="display:flex;justify-content:space-between;align-items:baseline">
+              <span class="dao-chamber__roman">I</span>
+              <span class="dao-chamber__count">23 <span data-de>Stimmen</span><span data-en>votes</span></span>
+            </div>
+            <div class="dao-chamber__name">Faculty</div>
+            <div class="dao-chamber__threshold">⅔ · 66%</div>
+            <div class="dao-chamber__bar" style="--w:72%"></div>
+          </div>
+          <div class="dao-chamber">
+            <div style="display:flex;justify-content:space-between;align-items:baseline">
+              <span class="dao-chamber__roman">II</span>
+              <span class="dao-chamber__count">180 <span data-de>Stimmen</span><span data-en>votes</span></span>
+            </div>
+            <div class="dao-chamber__name">Students</div>
+            <div class="dao-chamber__threshold">½ · 50%</div>
+            <div class="dao-chamber__bar" style="--w:61%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 03 AUSFÜHRUNG -->
+      <div class="dao-card">
+        <span class="dao-card__step">03 · <span data-de>Ausführung</span><span data-en>Execution</span></span>
+        <div class="dao-card__title">Smart<br>Contract</div>
+        <span class="dao-card__hash">exec() · 0x4a…c1</span>
+      </div>
+
+      <!-- 04 ARCHIV -->
+      <div class="dao-card" style="background:rgba(255,255,255,0.04)">
+        <span class="dao-card__step">04 · <span data-de>Archiv</span><span data-en>Archive</span></span>
+        <div class="dao-card__title">Blockchain</div>
+        <div class="dao-archive" aria-hidden="true">
+          <span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 data-de>Wie Sie am DAO <em style="color:var(--green)">teilnehmen</em>.</h2>
+    <h2 data-en>How to <em style="color:var(--green)">participate</em> in the DAO.</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step__num">01</div>
+        <div>
+          <h3 data-de>Mitglied werden</h3>
+          <h3 data-en>Become a member</h3>
+          <p data-de>Lehrende und Studierende erhalten automatisch Stimmrecht. Fördernde Mitglieder beantragen es schriftlich – kostenfrei.</p>
+          <p data-en>Faculty and students automatically receive voting rights. Supporting members request them in writing — free of charge.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">02</div>
+        <div>
+          <h3 data-de>Wallet verbinden</h3>
+          <h3 data-en>Connect wallet</h3>
+          <p data-de>Einmalig. MYZEL nutzt eine EU-konforme, energiearme Blockchain. Anleitung liegt bei – keine Krypto-Vorkenntnisse nötig.</p>
+          <p data-en>One-time setup. MYZEL uses an EU-compliant, low-energy blockchain. A guide is provided — no prior crypto knowledge required.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">03</div>
+        <div>
+          <h3 data-de>Vorschläge lesen &amp; abstimmen</h3>
+          <h3 data-en>Read &amp; vote on proposals</h3>
+          <p data-de>Wöchentliche Zusammenfassung per Mail. Browser oder Campus-Terminal.</p>
+          <p data-en>Weekly summary by email. Browser or campus terminal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--green" style="text-align:center;position:relative">
+  <div class="container">
+    <span class="quote__mark" aria-hidden="true" style="left:50%;top:1rem;transform:translateX(-50%)">„</span>
+    <p class="label" style="color:var(--yellow);margin-bottom:2rem;justify-content:center;display:inline-flex" data-de>Das Versprechen</p>
+    <p class="label" style="color:var(--yellow);margin-bottom:2rem;justify-content:center;display:inline-flex" data-en>The Promise</p>
+    <blockquote style="font-family:var(--ff-display);font-style:italic;font-weight:300;font-size:clamp(1.5rem,3.5vw,3rem);line-height:1.2;letter-spacing:-0.01em;max-width:1080px;margin:0 auto;color:var(--white)" data-de>„Entscheidungen sind  <span style="color:var(--yellow)">öffentlich</span> begründet, dokumentiert und überprüfbar."</blockquote>
+    <blockquote style="font-family:var(--ff-display);font-style:italic;font-weight:300;font-size:clamp(1.5rem,3.5vw,3rem);line-height:1.2;letter-spacing:-0.01em;max-width:1080px;margin:0 auto;color:var(--white)" data-en>"Decisions are <span style="color:var(--yellow)">publicly</span> justified, documented, and verifiable."</blockquote>
+    <cite style="display:block;margin-top:2.5rem;font-family:var(--ff-meta);font-weight:500;font-size:0.72rem;letter-spacing:0.18em;color:var(--yellow);font-style:normal;text-transform:uppercase"><span data-de>— Gründungscharta LUX e.V., § 4</span><span data-en>— LUX e.V. Founding Charter, § 4</span></cite>
+  </div>
+</section>
+
+<section class="section section--cream">
+  <div class="container">
+    <p class="label" data-de>Häufige Fragen</p>
+    <p class="label" data-en>FAQ</p>
+    <h2 style="margin-top:.5rem;margin-bottom:2.5rem" data-de>Was MYZEL ist – und was nicht.</h2>
+    <h2 style="margin-top:.5rem;margin-bottom:2.5rem" data-en>What MYZEL is — and isn't.</h2>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem">
+      <div>
+        <h3 style="margin-bottom:.5rem" data-de>Ist MYZEL eine Kryptowährung?</h3>
+        <h3 style="margin-bottom:.5rem" data-en>Is MYZEL a cryptocurrency?</h3>
+        <p data-de>Nein. MYZEL nutzt Blockchain ausschließlich als manipulationssicheres Abstimmungs- und Archivprotokoll. Es gibt keinen handelbaren Token.</p>
+        <p data-en>No. MYZEL uses blockchain solely as a tamper-resistant voting and archive protocol. There is no tradable token.</p>
+      </div>
+      <div>
+        <h3 style="margin-bottom:.5rem" data-de>Wer entscheidet am Ende?</h3>
+        <h3 style="margin-bottom:.5rem" data-en>Who decides in the end?</h3>
+        <p data-de>Die Mitgliederversammlung der LUX e.V. bleibt nach BGB-Vereinsrecht das oberste Organ. MYZEL bildet diese Beschlüsse digital ab und macht sie öffentlich nachvollziehbar.</p>
+        <p data-en>The LUX e.V. members' assembly remains the supreme body under German association law. MYZEL mirrors these decisions digitally and makes them publicly traceable.</p>
+      </div>
+      <div>
+        <h3 style="margin-bottom:.5rem" data-de>Wie energieintensiv ist das?</h3>
+        <h3 style="margin-bottom:.5rem" data-en>How energy-intensive is this?</h3>
+        <p data-de>MYZEL läuft auf einer Proof-of-Stake-Chain mit minimalem Stromverbrauch – pro Abstimmung weniger als ein E-Mail-Versand.</p>
+        <p data-en>MYZEL runs on a proof-of-stake chain with minimal energy use — less than a single email per vote.</p>
+      </div>
+      <div>
+        <h3 style="margin-bottom:.5rem" data-de>Bleibt mein Stimmverhalten privat?</h3>
+        <h3 style="margin-bottom:.5rem" data-en>Is my vote private?</h3>
+        <p data-de>Pseudonym. Die Wallet-Adresse ist öffentlich, der Klarname nicht. Auf Wunsch werden Stimmen aggregiert und individuelle Einträge nur im Konfliktfall offengelegt.</p>
+        <p data-en>Pseudonymous. The wallet address is public, your real name is not. On request, votes are aggregated and individual entries only disclosed in case of dispute.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter__inner">
+      <div class="newsletter__text">
+        <h2 data-de>MYZEL-Updates</h2>
+        <h2 data-en>MYZEL updates</h2>
+        <p data-de>Aktuelle Vorschläge, neue Versionen und Governance-Berichte.</p>
+        <p data-en>Active proposals, new versions, and governance reports.</p>
+      </div>
+      <a href="newsletter.html" class="newsletter__btn newsletter__cta">
+        <span data-de>Newsletter abonnieren →</span>
+        <span data-en>Subscribe to newsletter →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__lux">L U X</div>
+        <span class="footer__sub" data-de>akademie neues bauhaus brandenburg</span>
+        <span class="footer__sub" data-en>academy of the new bauhaus brandenburg</span>
+        <p data-de>Erste Kunst- und Musikhochschule Brandenburgs. Verwurzelt im Bauhaus. Entworfen für das 21. Jahrhundert.</p>
+        <p data-en>Brandenburg's first Academy of Art and Music. Rooted in the Bauhaus. Designed for the 21st century.</p>
+      </div>
+      <div>
+        <p class="footer__col-title" data-de>Navigation</p>
+        <p class="footer__col-title" data-en>Navigation</p>
+        <ul class="footer__links">
+          <li><a href="index.html"><span data-de>Start</span><span data-en>Home</span></a></li>
+          <li><a href="programme.html"><span data-de>Programme</span><span data-en>Programmes</span></a></li>
+          <li><a href="ort.html"><span data-de>Ort &amp; Campus</span><span data-en>Site &amp; Campus</span></a></li>
+          <li><a href="meister.html"><span data-de>Meister</span><span data-en>Masters</span></a></li>
+          <li><a href="myzel.html">MYZEL</a></li>
+          <li><a href="kontakt.html"><span data-de>Kontakt</span><span data-en>Contact</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title" data-de>Kontakt</p>
+        <p class="footer__col-title" data-en>Contact</p>
+        <ul class="footer__links">
+          <li><a href="mailto:info@lux-akademie.de">info@lux-akademie.de</a></li>
+          <li><a href="tel:+491752454185">+49 175 2454 185</a></li>
+          <li>c/o jkk productions<br>Neue Kulmer Str. 1<br>10827 Berlin</li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title" data-de>Rechtliches</p>
+        <p class="footer__col-title" data-en>Legal</p>
+        <ul class="footer__links">
+          <li><a href="impressum.html"><span data-de>Impressum</span><span data-en>Imprint</span></a></li>
+          <li><a href="datenschutz.html"><span data-de>Datenschutz</span><span data-en>Privacy</span></a></li>
+          <li><a href="#" data-lang-btn="de">Deutsch</a></li>
+          <li><a href="#" data-lang-btn="en">English</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2026 LUX – akademie neues bauhaus brandenburg e.V.</p>
+      <div class="footer__legal">
+        <a href="impressum.html"><span data-de>Impressum</span><span data-en>Imprint</span></a>
+        <a href="datenschutz.html"><span data-de>Datenschutz</span><span data-en>Privacy</span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
