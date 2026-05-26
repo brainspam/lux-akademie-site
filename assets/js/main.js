@@ -63,40 +63,6 @@
     els.forEach(function (el) { obs.observe(el); });
   }
 
-  /* ── Contact form (placeholder — wire to real endpoint) ── */
-  function bindContactForm() {
-    var form = document.getElementById('contactForm');
-    if (!form) return;
-
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      // ── TODO: replace with your endpoint ──────────────
-      // Options: Formspree, Netlify Forms, Brevo, custom backend.
-      // Example (Formspree):
-      //   fetch('https://formspree.io/f/YOUR_ID', {
-      //     method: 'POST',
-      //     body: new FormData(form),
-      //     headers: { Accept: 'application/json' }
-      //   }).then(...)
-      // ───────────────────────────────────────────────────
-
-      var ok  = document.getElementById('formSuccess');
-      var err = document.getElementById('formError');
-      var btn = document.getElementById('submitBtn');
-
-      if (btn) { btn.style.opacity = '0.6'; btn.style.pointerEvents = 'none'; }
-
-      // Simulate success
-      setTimeout(function () {
-        if (ok)  ok.style.display  = 'block';
-        if (err) err.style.display = 'none';
-        form.reset();
-        if (btn) { btn.style.opacity = '1'; btn.style.pointerEvents = ''; }
-      }, 800);
-    });
-  }
-
   /* ── Mailchimp newsletter signup (JSONP, no jQuery) ───── */
   function bindMailchimpSignup() {
     var form = document.getElementById('mcSignupForm');
@@ -246,7 +212,6 @@
     setLang(detectLang());
     bindNav();
     bindNavShadow();
-    bindContactForm();
     bindMailchimpSignup();
     initReveal();
   });
